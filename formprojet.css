@@ -1,0 +1,42 @@
+body {
+  width: 50%; 
+  margin: none; 
+  background: url(img/wlp.png) center;
+
+   font-family: sans-serif;
+   line-height: 1.5;
+   color: rgb(78, 147, 252);
+
+}
+
+label {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 20px;
+  width: 80;
+  margin: none;
+  display: line block;
+  list-style-type: none; 
+  
+}
+
+input, textarea{
+  width: 200px;
+  padding: 10px;
+  margin: 30px;
+
+}
+
+fieldset {
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+
+
+
+
+
+
+
+

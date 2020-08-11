@@ -1,77 +1,95 @@
-<!DOTYPE html>
+<!DOCTYPE html>
 <html lang="pt">
- <head>
-      <title>luan oliveira sktboarding</title>
+<head>
+    <meta charset=UTF-8>
+    <title>formulario</title>
+<link rel="stylesheet" href="formprojet.css">
+    <h1>formulario ds160</h1>
 
-    <link rel="stylesheet" href="Lprojet.css">
+  <from>
+      <label>Nome</label>
+      <br>
+      <input type="text">
+      <br><br>
+      <label>sobrenome</label>
+      <br>
+      <input type="email">
+      <br><br>
+      <label>CPF</label>
+      <br>
+      <input type="password" placeholder="informe a 11 caracteres" maxlength="5">
+      <br><br>
+  </from>
+<hr>
+<from>
+
+<fieldset id="usuario"><legend>idetificação do Usuário</legend>
+ <p>nome:  <input type="text" name="tnome" id="cnome"/></p>
+ <p>senha: <input type="password" name="senha" id="csenha"/></p>
+ <p>email: <input type="email" name="temail" id="cemail"/></p>
+
+<fieldset id="sexo"><legend>sexo</legend>
+<input type="radio" name="tsexo" id="tmasc"/>masculino
+<br>
+<input type="radio" name="tsexo" id="tfem"/>feminino
+
+    <p>data de nascimento: <input type="date" name="tnasc" id="tnasc"/></p>
+
+</fieldset>
+
+<fieldset id="endreço"><legend>endreço do Usuário</legend>
+    <p>logradouro: <input type="text" name="trua" id="crua"/></p>  
+    <p>numero: <input type="number" name="tnum" id="cnum"/></p>
+    <p>estado: <select name="test" id="cest"></p>
+               <option>brasília</option>
+               <option>rio de janeiro</option>
+               <option>são paulo</option>
+</fieldset>
+
+<fieldset id="mensagem"><legend>mensagem do Usuário</legend>
+    <p>mensagem: <textarea name="tmsg" id="cmsg"></textarea></p>
+
+</fieldset>
+
+
+
+<fieldset id="usuario"><legend>idetificação do Acompanhante</legend>
+    <p>nome:  <input type="text" name="tnome" id="cnome"/></p>
+    <p>senha: <input type="password" name="senha" id="csenha"/></p>
+    <p>email: <input type="email" name="temail" id="cemail"/></p>
+   
+   <fieldset id="sexo"><legend>sexo</legend>
+   <input type="radio" name="tsexo" id="tmasc"/>masculino
+   <br>
+   <input type="radio" name="tsexo" id="tfem"/>feminino
+   
+       <p>data de nascimento: <input type="date" name="tnasc" id="tnasc"/></p>
+   
+   </fieldset>
+   
+   <fieldset id="endreço"><legend>endreço do Acompanhante</legend>
+       <p>logradouro: <input type="text" name="trua" id="crua"/></p>  
+       <p>numero: <input type="number" name="tnum" id="cnum"/></p>
+       <p>estado: <select name="test" id="cest"></p>
+                  <option>brasília</option>
+                  <option>rio de janeiro</option>
+                  <option>são paulo</option>
+           
+   </fieldset>
+ </from>
+
+ <input type="submit" value="enviar">
+ 
+
+
+
+
 </head>
-
-
 <body>
 
-<ul>
-     <li> <a href="#videoPart">MAIS SOBRE LUAN OLIVEIRA </a> </li>
-</ul>
-  
-  <img src="img/luanoliveira.jpg">
-
-    <h1>Luan Oliveira</h1>
-    <h3>Alem Do Skate</h3>
-
-    <p>Luan de oliveira começou a andar de skate em 1999 com um skate de plástico que ganhou do pai.
-         Mesmo sendo um skate de plástico foi paixão a primeira vista,
-         ele passou a andar sempre na rua até que conheceu um skatista chamado
-         Nilton Urina que morava na mesma rua que Luan e que passou a dar peças de skate como shape,
-         trucks e etc, que levaram a motivar mais o menino que começou a querer andar o tempo todo,
-         andando aprendendo manobras, depois de um tempo depois de
-         algumas viagens começaram a chegar propostas de patrocínio,
-         daí pra frente só foi crescimento profissional até que ganhou o campeonato de tampa 2008-2009 e
-         vários outros e que hoje é considerado um dos maiores skatistas do Brasil.</p>
-  <hr>
-
-  <div class="concerts">
-    <table>
-     <thead>
-      
-      </thead>
 
 
-      <tbody>
-        <tr>
-         <td>NOME: Luan de Oliveira</td>
-        </tr>
 
-        <tr>
-        <td>PATROCINIOS: Flip Skateboards,
-                          NikeSB, Independent Trucks, Spitfire Wheels, Diamond Supply Co.,
-                          Oakley, Matriz Skate Shop</td>
-        </tr>
 
-        <tr>
-        <td>LOCAL: Porto Alegre-RS</td>
-        </tr>
-
-        <tr>
-          <td>BASE: Regular</td>
-        </tr>
-      </tbody>
-    </table>
-  </div> 
-<hr>
-</br>
-     <h1> <a name="VideoPart"> MAIS SOBRE LUAN OLIVEIRA </a> </h1>
-
-     <img src="img/luanzin.png">
-</br>
-    <p>O talento que Luan de Oliveira tem, somado à paixão,
-       disposição e dedicação pelo skate formaram um skatista completo.
-       Por muitos momentos se mostrou com forte personalidade para encarar problemas sérios na vida
-       e conseguiu como poucos projetar toda a motivação em andar de skate e se divertir como se fosse
-       o ultimo dia de sua vida. Naturalmente vive o verdadeiro espirito do skate por diversão.</p>
-</br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6u0HGN-vN7A" frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    
-  </body>
+</body>
 </html>
