@@ -1,0 +1,35 @@
+body {
+width: 50%;
+margin: auto;
+background: url(img/sls.jpg) center;
+
+ font-family: sans-serif;
+ line-height: 1.5;
+ color: rgb(203, 233, 120);
+}
+
+.concerts table {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(122, 101, 216, 0.938);
+
+}
+
+li{
+  background-color: ivory;
+     
+}
+
+ul li{
+
+   font-family: fantasy;
+   padding: 20px;
+   background-color: rgb(127, 120, 221);
+   width: 150;
+   margin:0px auto;
+   margin-left: 0px;
+   display: inline-block;
+   list-style-type: none;
+
+
+}
+
